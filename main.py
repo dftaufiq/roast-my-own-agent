@@ -6,6 +6,8 @@ Writes the chosen roast to /output/entry.txt (UTF-8, one line, 63 chars).
 
 import os
 
+# Second look: the file stays tiny on purpose — one roast, one write, no extra machinery.
+
 ROAST = "My agent thinks it's JARVIS. It's Clippy with a GitHub account."
 
 
